@@ -35,6 +35,10 @@ You can also update task **status** from Trello, but there are some details to k
 
 ## Installation
 
+To install the tool, you will need to be proficient with your macOS terminal.
+
+Clone the repository using git and navigate to its directory. Then, follow the steps below.
+
 ### Local setup
 
 First, install the composer dependencies:
