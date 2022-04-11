@@ -334,4 +334,5 @@ If you'd like help with setting this up locally, email me at [samuel@archte.ch](
 
 ## Technical details
 
-We use static properties for caching Trello responses, so running the app as a long-running process could result in issues. For that reason, you should use `schedule:run` — the one-time process — executed using cron, rather than `schedule:work`.
+- You can view the meaningful code (without the Laravel boilerplate & docs) by [diffing the third commit with HEAD](https://github.com/stancl/things3-trello-sync/compare/970373380e96cced75ea46810489a632c055e0ba...HEAD)
+- We use static properties for caching Trello responses, so running the app as a long-running process could result in issues. For that reason, you should use `schedule:run` — the one-time process — executed using cron, rather than `schedule:work`.
