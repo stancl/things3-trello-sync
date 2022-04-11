@@ -16,7 +16,7 @@ The features include:
 - Syncing task name, description, completion status
 - Subtasks, including their completion status
 - Syncing Things tags as Trello labels
-- Ability map Things *Headings*, *Projects, and *Areas* to Trello *Lists*, *Boards*, and *Workspaces*
+- Ability map Things *Headings*, *Projects(, and *Areas* to Trello *Lists*, *Boards*, and *Workspaces*
 - Selectively syncing tasks using a tag (directly on the task or on its *Heading*, *Project*, or *Area*)
 
 The primary purpose of this tool is to replicate your Things tasks on Trello. The sync is one-directional which means that changes made on Trello will not be downloaded back into Things.
