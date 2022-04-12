@@ -238,7 +238,7 @@ php artisan things:sync --force
 
 To sync your tasks automatically in the background, you can schedule the `things:sync` command to run every X minutes using crontab.
 
-For example, to sync recently changed tasks every minute, add the following record to your crontab*:
+For example, to sync recently changed tasks every minute, add the following record to your crontab\*:
 ```
 */1 * * * * php /path/to/the/sync/tool/artisan things:sync
 ```
@@ -247,7 +247,7 @@ To run the command every two minutes, the `*/1` becomes `*/2`.
 
 5 minutes is not recommended since the few second difference between the default 5 minute limit and the schedule that crontab runs on could result in some tasks being missed.
 
-*\ Run `EDITOR=nano crontab -e` to open the crontab settings. Use `ctrl+o+[enter]` to save the file afterwards. `ctrl+x` to exit.
+\* Run `EDITOR=nano crontab -e` to open the crontab settings. Use `ctrl+o+[enter]` to save the file afterwards. `ctrl+x` to exit.
 
 #### Laravel scheduler
 
