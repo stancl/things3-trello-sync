@@ -30,7 +30,7 @@ trait ChecklistClient
     public static function createCheckitem(Checklist $checklist, string $name, bool $checked = false): Checkitem
     {
         return new Checkitem(static::client()->post("checklists/{$checklist->id}/checkItems", [
-            'name' => $name,
+            'name' => (strlen( $name ) === 0) ? "-" : $name,
             'checked' => $checked,
             ...static::auth(),
         ])->json());
